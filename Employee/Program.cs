@@ -80,7 +80,13 @@ namespace Employeee
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.ForegrounColor = ConsoleColor.Green;
+            Console.WriteLine("Вас приветствует класс Employee");
+            Console.ForegrounColor = ConsoleColor.White;
+            string[] name = {"Ник", "Лейтон", "Юми", "Коннор", "Зельда", "Алия", "Герберт", "Гунтер"};
+            string[] lastName1 = {"Альто", "Секемото", "Секемото", "Грей", "Май", "Ландграаб","Ландграаб", "Гот"};
+            string[] posiTion = {"Директор", "Программист", "Учитель", "Юрист", "Менеджер", "Юрист", "Менеджер", "Программист"};
+            
         }
     }
 }
